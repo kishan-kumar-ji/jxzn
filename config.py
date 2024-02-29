@@ -10,16 +10,16 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7161568334:AAFxn8mU72wRWivAruxI3nlydyLB57i8-gU")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6863049081:AAEhxy5DmsfS4omPvhitJvVqn_YrAoGKezk")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "27607490"))
+APP_ID = int(os.environ.get("APP_ID", "23454817"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "1495e09b9614aa79a60839b9aae1a1fe")
+API_HASH = os.environ.get("API_HASH", "27f54a7f47e03e413d8a82adb0921228")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002031398178"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002035678915"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "6669835291"))
@@ -28,24 +28,24 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6669835291"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URI", "mongodb+srv://gb711922:IsuTGT29dM7tb07F@cluster0.agjg78z.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URI","mongodb+srv://Akash69:Akash123@cluster0.uz7c3yp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "modijiurl.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "7e64c97d572c1cbfc17dfe9f82bf372a0ccb194d")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "instantearn.in")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "b69ae44cf9ab0e406de7d1c3ab0fc9cc21d48be1")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 21600)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID","how_to_open_link_0011/14")
+TUT_VID = os.environ.get("TUT_VID","japanese_live_actionz/12")
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002055195966"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001812429033"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
-ADMINS=[5253420752]
+ADMINS=[6910774201,1973292326]
 
 #Force sub message 
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>")
