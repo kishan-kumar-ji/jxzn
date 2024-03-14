@@ -29,7 +29,7 @@ PORT = os.environ.get("PORT", "8080")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URI","mongodb+srv://alienufowala:kishan@cluster0.wrwmsil.mongodb.net/")
-DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "kingurl.in")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "56f1ce381624036f60fd477786ffaf965f82fe07")
