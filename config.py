@@ -10,16 +10,16 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6974767086:AAF_ABkOhpxjldqj5SCByhQLPnDfzKIrffc")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6610385824:AAGk35zGKu2mP8JoFAtpEplVXawdw_Tly0s")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "24646671"))
+APP_ID = int(os.environ.get("APP_ID", "18102551"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "f10705d9cc4dde81ea47b72e402d32b7")
+API_HASH = os.environ.get("API_HASH", "7c51c14ac28592debd5a45a3fdd376eb")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002019428322"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002142552072"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "6669835291"))
@@ -28,27 +28,27 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6669835291"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URI","mongodb+srv://kxzn980:kishan@cluster0.tu0fpes.mongodb.net")
+DB_URI = os.environ.get("DATABASE_URI","mongodb+srv://alienufowala:kishan@cluster0.wrwmsil.mongodb.net/")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "link2paisa.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "d34145ea300249d435b463ce8c81818bb25d1080")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "kingurl.in")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "56f1ce381624036f60fd477786ffaf965f82fe07")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86399)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID","japanese_live_actionz/19")
+TUT_VID = os.environ.get("TUT_VID","japanese_live_actionz/20")
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002117448248"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002024429534"))
 
-TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
+TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "8"))
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
-ADMINS=[6949736066,6986912824]
+ADMINS=[6986912824,6669835291]
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to join in my Channel @preview_X to use me\n\nKindly Please join Channel </b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
